@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(128, 128, 128, 0.32);
+}
+.login-form{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 40px;
+  background: white;
+  border-radius: 15px;
+  width: 40vw;
+  gap: 15px;
+}
+
+input{
+  width: 100%;
+  padding: 10px;
+}
+
+button{
+  background: #28a745;
+  color: white;
+  padding: 10px 10px;
+  outline: none;
+  border: none;
+}
+button:hover{
+  background-color: #1f8b38;
+}
